@@ -1,1 +1,1 @@
-# genome-proj
+# genome-project
