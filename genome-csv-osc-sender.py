@@ -84,7 +84,7 @@ def sendMessage(address, label, data):
             print("List initialized.")
             verify = initCSV()
             dataArrayed = verify[1]
-            length = verify[2]
+            length: int = verify[2]
             client.send_message("/list/length", float(length))
             print("File length: " + str(length))
     except IndexError:
